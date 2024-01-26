@@ -1,0 +1,182 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2%;
+}
+header div {
+  color: #dc40a3;
+  display: flex;
+  height: 100px;
+}
+header div img {
+  width: 80px;
+  height: 75px;
+}
+header div div {
+  flex-direction: column;
+  margin-left: 30%;
+}
+@media (width <= 768px) {
+  header div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+header nav {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ecb3dc;
+  align-content: center;
+}
+header nav a {
+  color: #4321ee;
+  text-transform: uppercase;
+  font-font-family: Arial, Helvetica, sans-serif;
+}
+header nav a:hover {
+  background-color: #fff;
+}
+@media (width <= 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+  }
+}
+
+footer {
+  background-color: #ecb3dc;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#firebrick {
+  background-color: #B22222;
+  height: 100px;
+}
+
+#greenyellow {
+  background-color: #ADFF2F;
+  height: 100px;
+}
+
+#deepskyblue {
+  background-color: #00BFFF;
+  height: 100px;
+}
+
+#blueviolet {
+  background-color: #8A2BE2;
+  height: 100px;
+}
+
+#f25 {
+  background-color: #D0655F;
+}
+
+#f75 {
+  background-color: #531A13;
+}
+
+#g25 {
+  background-color: #DDFC9E;
+}
+
+#g75 {
+  background-color: #8EC536;
+}
+
+#d25 {
+  background-color: #86D5FC;
+}
+
+#d75 {
+  background-color: #327095;
+}
+
+#b25 {
+  background-color: #B488E9;
+}
+
+#b75 {
+  background-color: #4D1B8E;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header nav a {
+  text-align: left;
+}
+
+#fk {
+  border: 3px solid;
+  background-color: #60f89f;
+}
+#fk img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+#lk {
+  border: 3px solid;
+  background-color: #6cb2d8;
+}
+#lk img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+#ig {
+  border: 3px solid;
+  background-color: #c43597;
+}
+#ig img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+#yt {
+  border: 3px solid;
+  background-color: #e05858;
+}
+#yt img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+#tw {
+  border: 3px solid;
+  background-color: #969fa5;
+}
+#tw img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+#pri {
+  border: 3px solid;
+  background-color: #e28f47;
+}
+#pri img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,43 @@
+@use'../base/variables' as c;
+@use'../base/mixins'as m;
+
+#firebrick{
+    background-color: c.$firebrick;
+    height: 100px;
+}
+#greenyellow{
+    background-color: c.$greenyellow;
+    height: 100px;
+}
+#deepskyblue{
+    background-color: c.$deepskyblue;
+    height: 100px;
+}
+#blueviolet{
+    background-color: c.$blueviolet;
+    height: 100px;
+}
+#f25{
+    background-color: c.$f25;
+}
+#f75{
+    background-color: c.$f75;
+}
+#g25{
+    background-color: c.$g25;
+}
+#g75{
+    background-color: c.$g75;
+}
+#d25{
+    background-color: c.$d25;
+}
+#d75{
+    background-color: c.$d75;
+}
+#b25{
+    background-color: c.$b25;
+}
+#b75{
+    background-color: c.$b75;
+}

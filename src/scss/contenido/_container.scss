@@ -1,0 +1,55 @@
+@use'../base/variables' as c;
+@use'../base/mixins'as m;
+
+header{
+    font-family: c.$fuente-principal;
+    nav{
+        a{
+            text-align: left;
+        }
+    }
+}
+
+#fk{
+    @include m.color-fondo(fk);
+    
+        img{
+            @include m.img;
+        }
+}
+
+#lk{
+    @include m.color-fondo(lk);
+    
+        img{
+            @include m.img;
+        }
+}
+#ig{
+    @include m.color-fondo(ig);
+    
+        img{
+            @include m.img;
+        }
+}
+#yt{
+    @include m.color-fondo(yt);
+    
+        img{
+            @include m.img;
+        }
+}
+#tw{
+    @include m.color-fondo(tw);
+    
+        img{
+            @include m.img;
+        }
+}
+#pri{
+    @include m.color-fondo(pri);
+    
+        img{
+            @include m.img;
+        }
+}

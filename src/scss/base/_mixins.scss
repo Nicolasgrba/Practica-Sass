@@ -1,0 +1,41 @@
+@use '../base/variables' as c;
+@mixin flex-nav{
+    display: flex;
+    justify-content: space-around;
+    
+    
+   
+
+}
+@mixin img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+@mixin color-fondo($id){
+    border:3px solid;
+    @if $id =="fk"{
+        background-color: c.$color-facebook;
+    }
+    @else if $id=="lk"{
+        background-color: c.$color-linkedin;
+
+    }
+    @else if $id=="ig"{
+        background-color: c.$color-instagram;
+
+    }
+    @else if $id=="yt"{
+        background-color: c.$color-youtube;
+
+    }
+    @else if $id=="tw"{
+        background-color: c.$color-twitter;
+
+    }
+    @else if $id=="pri"{
+        background-color: c.$color-pinterest;
+
+    }
+}
